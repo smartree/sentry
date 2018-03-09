@@ -165,7 +165,12 @@ exports[`OrganizationTeamProjects Should render 1`] = `
                               }
                             >
                               <DropdownAutoComplete
+<<<<<<< HEAD
                                 alignMenu="right"
+=======
+                                alignMenu="left"
+                                isOpen={false}
+>>>>>>> user badges for durpdown
                                 items={
                                   Array [
                                     Object {
