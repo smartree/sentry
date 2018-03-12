@@ -166,9 +166,12 @@ exports[`OrganizationTeamProjects Should render 1`] = `
                             >
                               <DropdownAutoComplete
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 alignMenu="right"
 =======
                                 alignMenu="left"
+=======
+>>>>>>> add members button inside label as per designs
                                 isOpen={false}
 >>>>>>> user badges for durpdown
                                 items={
