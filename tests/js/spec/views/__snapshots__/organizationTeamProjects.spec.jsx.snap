@@ -167,11 +167,15 @@ exports[`OrganizationTeamProjects Should render 1`] = `
                               <DropdownAutoComplete
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 alignMenu="right"
 =======
                                 alignMenu="left"
 =======
 >>>>>>> add members button inside label as per designs
+=======
+                                alignMenu="left"
+>>>>>>> fix some bugs caused by changes to dropdownAutocomplete
                                 isOpen={false}
 >>>>>>> user badges for durpdown
                                 items={
@@ -185,7 +189,12 @@ exports[`OrganizationTeamProjects Should render 1`] = `
                                 onSelect={[Function]}
                               >
                                 <DropdownAutoCompleteMenu
+<<<<<<< HEAD
                                   alignMenu="right"
+=======
+                                  alignMenu="left"
+                                  isOpen={false}
+>>>>>>> fix some bugs caused by changes to dropdownAutocomplete
                                   items={
                                     Array [
                                       Object {
