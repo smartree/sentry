@@ -168,6 +168,7 @@ exports[`OrganizationTeamProjects Should render 1`] = `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 alignMenu="right"
 =======
                                 alignMenu="left"
@@ -176,6 +177,9 @@ exports[`OrganizationTeamProjects Should render 1`] = `
 =======
                                 alignMenu="left"
 >>>>>>> fix some bugs caused by changes to dropdownAutocomplete
+=======
+                                alignMenu="right"
+>>>>>>> right is default alignment for dropdownAutocompleteMenu
                                 isOpen={false}
 >>>>>>> user badges for durpdown
                                 items={
@@ -190,9 +194,13 @@ exports[`OrganizationTeamProjects Should render 1`] = `
                               >
                                 <DropdownAutoCompleteMenu
 <<<<<<< HEAD
+<<<<<<< HEAD
                                   alignMenu="right"
 =======
                                   alignMenu="left"
+=======
+                                  alignMenu="right"
+>>>>>>> right is default alignment for dropdownAutocompleteMenu
                                   isOpen={false}
 >>>>>>> fix some bugs caused by changes to dropdownAutocomplete
                                   items={
