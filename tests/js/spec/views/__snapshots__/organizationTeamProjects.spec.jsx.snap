@@ -72,12 +72,12 @@ exports[`OrganizationTeamProjects Should render 1`] = `
 }
 
 .glamor-3 {
-  margin-right: 0.5em;
+  margin-left: 0.33em;
 }
 
 .glamor-1 {
   vertical-align: middle;
-  margin-right: 0.5em;
+  margin-left: 0.33em;
 }
 
 .glamor-49 {
@@ -185,7 +185,10 @@ exports[`OrganizationTeamProjects Should render 1`] = `
                                 items={
                                   Array [
                                     Object {
-                                      "label": "project-slug-2",
+                                      "label": <ProjectListElement>
+                                        project-slug-2
+                                      </ProjectListElement>,
+                                      "searchKey": "project-slug-2",
                                       "value": "3",
                                     },
                                   ]
@@ -206,7 +209,10 @@ exports[`OrganizationTeamProjects Should render 1`] = `
                                   items={
                                     Array [
                                       Object {
-                                        "label": "project-slug-2",
+                                        "label": <ProjectListElement>
+                                          project-slug-2
+                                        </ProjectListElement>,
+                                        "searchKey": "project-slug-2",
                                         "value": "3",
                                       },
                                     ]
@@ -238,20 +244,28 @@ exports[`OrganizationTeamProjects Should render 1`] = `
                                             >
                                               <DropdownButton
                                                 isOpen={false}
+                                                size="xsmall"
                                               >
                                                 <StyledButton
                                                   isOpen={false}
+                                                  size="xsmall"
                                                 >
                                                   <Component
                                                     className="glamor-11 glamor-12"
                                                     isOpen={false}
+                                                    size="xsmall"
                                                   >
                                                     <Button
                                                       className="glamor-11 glamor-12"
                                                       disabled={false}
+                                                      size="xsmall"
                                                     >
                                                       <button
+<<<<<<< HEAD
                                                         className="glamor-11 glamor-12 button button-default"
+=======
+                                                        className="glamor-9 glamor-10 button button-default button-xs"
+>>>>>>> style projects dropdown
                                                         disabled={false}
                                                         onClick={[Function]}
                                                         role="button"
@@ -268,6 +282,7 @@ exports[`OrganizationTeamProjects Should render 1`] = `
                                                               className="button-label glamor-9"
                                                               is={null}
                                                             >
+                                                              Add Project
                                                               <StyledChevronDown>
                                                                 <Component
                                                                   className="glamor-3 glamor-0"
@@ -299,6 +314,7 @@ exports[`OrganizationTeamProjects Should render 1`] = `
                                                                   </InlineSvg>
                                                                 </Component>
                                                               </StyledChevronDown>
+<<<<<<< HEAD
                                                               <span
                                                                 className="icon-plus"
                                                               />
@@ -306,6 +322,11 @@ exports[`OrganizationTeamProjects Should render 1`] = `
                                                             </div>
                                                           </Base>
                                                         </Flex>
+=======
+                                                            </span>
+                                                          </div>
+                                                        </FlowLayout>
+>>>>>>> style projects dropdown
                                                       </button>
                                                     </Button>
                                                   </Component>
