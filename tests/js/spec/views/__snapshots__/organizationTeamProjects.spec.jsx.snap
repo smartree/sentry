@@ -165,23 +165,7 @@ exports[`OrganizationTeamProjects Should render 1`] = `
                               }
                             >
                               <DropdownAutoComplete
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                                 alignMenu="right"
-=======
-                                alignMenu="left"
-=======
->>>>>>> add members button inside label as per designs
-=======
-                                alignMenu="left"
->>>>>>> fix some bugs caused by changes to dropdownAutocomplete
-=======
-                                alignMenu="right"
->>>>>>> right is default alignment for dropdownAutocompleteMenu
-                                isOpen={false}
->>>>>>> user badges for durpdown
                                 items={
                                   Array [
                                     Object {
@@ -196,16 +180,7 @@ exports[`OrganizationTeamProjects Should render 1`] = `
                                 onSelect={[Function]}
                               >
                                 <DropdownAutoCompleteMenu
-<<<<<<< HEAD
-<<<<<<< HEAD
                                   alignMenu="right"
-=======
-                                  alignMenu="left"
-=======
-                                  alignMenu="right"
->>>>>>> right is default alignment for dropdownAutocompleteMenu
-                                  isOpen={false}
->>>>>>> fix some bugs caused by changes to dropdownAutocomplete
                                   items={
                                     Array [
                                       Object {
@@ -261,11 +236,7 @@ exports[`OrganizationTeamProjects Should render 1`] = `
                                                       size="xsmall"
                                                     >
                                                       <button
-<<<<<<< HEAD
-                                                        className="glamor-11 glamor-12 button button-default"
-=======
-                                                        className="glamor-9 glamor-10 button button-default button-xs"
->>>>>>> style projects dropdown
+                                                        className="glamor-11 glamor-12 button button-default button-xs"
                                                         disabled={false}
                                                         onClick={[Function]}
                                                         role="button"
@@ -314,19 +285,9 @@ exports[`OrganizationTeamProjects Should render 1`] = `
                                                                   </InlineSvg>
                                                                 </Component>
                                                               </StyledChevronDown>
-<<<<<<< HEAD
-                                                              <span
-                                                                className="icon-plus"
-                                                              />
-                                                              Add Project
                                                             </div>
                                                           </Base>
                                                         </Flex>
-=======
-                                                            </span>
-                                                          </div>
-                                                        </FlowLayout>
->>>>>>> style projects dropdown
                                                       </button>
                                                     </Button>
                                                   </Component>

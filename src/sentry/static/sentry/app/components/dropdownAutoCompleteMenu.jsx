@@ -83,7 +83,17 @@ class DropdownAutoCompleteMenu extends React.Component {
   };
 
   render() {
-    let {onSelect, children, items, action, menuProps, style, css, ...props} = this.props;
+    let {
+      onSelect,
+      children,
+      items,
+      menuProps,
+      style,
+      css,
+      menuHeader,
+      menuFooter,
+      ...props
+    } = this.props;
 
     return (
       <AutoComplete itemToString={item => ''} onSelect={onSelect} {...props}>
